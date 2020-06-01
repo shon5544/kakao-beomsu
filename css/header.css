@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.chats .chat__list-find {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+input::placeholder {
+  font-family: "Noto Serif KR", serif;
+}
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 25px;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 24px;
+  margin-right: 14px;
+  margin-bottom: 22px;
+  margin-left: 4px;
+}
+
+.header .header__back-btn-1 {
+  font-size: 24px;
+  margin-right: 14px;
+  margin-bottom: 22px;
+  margin-left: 17px;
+}
+
+.header__header-column .header__title {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.header__header-column .header__icon,
+.header__header-column .link__settings {
+  margin-bottom: 22px;
+  cursor: pointer;
+}

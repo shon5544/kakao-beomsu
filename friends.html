@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends | Kakao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">02:07</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">친구</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="friends">
+      <header class="friends__header">
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/profile.PNG" class="g-profile friend__profile" />
+            <div class="friend__content">
+              <span class="friend__name">
+                손범수
+              </span>
+              <span class="friend__status">
+                2020 화이팅
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <a
+              href="https://www.youtube.com/watch?v=c5j_wdQjzzE"
+              class="friend__now-listening"
+              target="blank"
+            >
+              <span>
+                Osaka (feat. ZICO) - ELO
+              </span>
+              <i class="fas fa-play"></i>
+            </a>
+          </div>
+        </li>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">
+          생일인 친구
+        </h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/birthday.PNG" class="friend__profile" />
+            <div class="friend__content">
+              <span class="friend__name">
+                친구의 생일을 확인해보세요!
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends__plus">
+        <h5 class="friends__title">플러스 친구</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/plusfriend.PNG" class="friend__profile" />
+            <div class="friend__content">
+              <span class="friend__name">
+                채널
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">친구 170</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/gyungtak_gu.PNG" class="friend__profile" />
+            <div class="friend__content">
+              <span class="friend__name">
+                구경택 담임선생님
+              </span>
+              <span class="friend__status">
+                도현이 100일!!
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/byungjin.PNG" class="friend__profile" />
+            <div class="friend__content">
+              <span class="friend__name">
+                김병진
+              </span>
+              <span class="friend__status">
+                NO MEANS NO
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <a
+              href="https://www.youtube.com/watch?v=Mx4-ey70XA4"
+              class="friend__now-listening"
+              target="blank"
+            >
+              <span>
+                Loop - 안예은
+              </span>
+              <i class="fas fa-play"></i>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">1</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">작은 화면에서 봐주세요!!</span>
+    </div>
+  </body>
+</html>
